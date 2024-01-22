@@ -41,7 +41,7 @@ export default function PieChart(props) {
       },
     ],
   };
-  return (
+  return ( 
     <div className="card mt-4">
       <div className="card-body">
         <h5 className="card-title">{props.value} Wise Expenses (Vaules are in Rupees)</h5>
